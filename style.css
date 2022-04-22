@@ -1,0 +1,72 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: url("./img/background.jpg") ;
+		background-repeat:no-repeat;
+		background-size: cover;
+}
+.title{
+	font-weight: bolder;
+	font-size: 60px;
+	color: red;
+	text-align:center;
+}
+.foto-capa{
+	width: 600px;
+	margin-left: 15em;
+}
+.caixa{
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+}
+nav{
+	position: center;
+	top: 110px;
+	right: 0;
+}
+nav li {
+    display:inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.titulo-texto{
+	text-align:center;
+	color: red;
+	font-size: 32px;
+	font-weight: bolder;
+}
+.texto{
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+}
+footer{
+	background: url("./img/background.jpg") ;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+
+}
+.mapa{
+	text-align: center;
+	padding: 3em 0;
+	width: 940px;
+}
+.imagem-carrossel{
+	oject-fit: cover;
+  object-position: 0 80%;
+  height:400px;
+}
